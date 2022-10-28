@@ -3,7 +3,12 @@ public class CatHouseRunner {
 
         // TASK 1: write your code here!
 
-
+         Cat Ash = new Cat("Ash",2);
+        Cat Ken = new Cat("Ken",3);
+        CatHouse houseOfMe = new CatHouse(Ash,Ken,"Me");
+        System.out.println(houseOfMe.houseInfo());
+        houseOfMe.rollCall();
+       
 
 
 
